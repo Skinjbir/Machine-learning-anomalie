@@ -43,7 +43,6 @@ def main():
         #Evaluate Model
         evaluator = Evaluator(X_test, y_test)
         evaluator.evaluate(trained_model)
-    
         #Save The Model 
         trainer.save_trained_model("./saved_model/model.pk1")
 
