@@ -1,4 +1,4 @@
-name: ML Pipeline
+name: Machine Learning Pipeline
 
 on:
   push:
